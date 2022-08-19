@@ -10,16 +10,44 @@
 }
 
 .box-flex-1 {
-    height: 100px;
+    /* height: 100px; */
+    min-height: 100px;
 }
 .box-flex-2 {
-    height: 200px;
+    /* height: 200px; */
+    min-height: 200px;
 }
 .box-flex-3 {
-    height: 300px;
+    /* height: 300px; */
+    min-height: 300px;
 }
 
 .flexbox-container {
+    background-color: lightcyan;
     display:flex;
+    // justify-content是橫向佈局；align-items是縱向佈局 ;
     justify-content:space-around;
+    // 默認是no-wrap, 設定wrap就會換行;
 }
+
+/* .flexbox-container-rows {
+    background-color: lightcyan;
+    display:flex;
+    flex-wrap: wrap;
+    // justify-content是橫向佈局；align-items是縱向佈局;
+    justify-content:center;
+    align-items:baseline;
+    // 默認是no-wrap, 設定wrap就會換行;
+}
+
+.box-item-row{
+    width:20vw;
+    margin:10px;
+    height: 100vh;
+}
+.box-flex-row{
+    background-color:mediumseagreen;
+    height: 30vh;
+    padding: 10px;
+    color:white;
+} */
