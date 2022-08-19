@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.box-item {
+    background-color: hotpink;
+    border:5px mediumvioletred solid;
+    width: 200px;
+    margin:20px;
+}
+
+.box-flex-1 {
+    height: 100px;
+}
+.box-flex-2 {
+    height: 200px;
+}
+.box-flex-3 {
+    height: 300px;
+}
+
+.flexbox-container {
+    display:flex;
+    justify-content:space-around;
+}
